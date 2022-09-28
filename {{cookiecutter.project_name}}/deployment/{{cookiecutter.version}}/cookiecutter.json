@@ -1,0 +1,12 @@
+{
+    "project_name": "Project_Name",
+    "project_short_description": "A short description of the project",
+    "project_slug": "custom-{{ cookiecutter.project_name.lower().replace('cookiecutter', '').strip().replace(' ', '_') }}",
+    "version": "0.0.1",
+    "src_dist_dir": "../../dist",
+    "copy_from_dist": [
+        "YES",
+        "NO"
+    ],
+    "_copy_without_render": []
+}
