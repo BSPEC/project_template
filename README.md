@@ -1,2 +1,2 @@
-# deployment_templates
-Deployment Templates for multiple platforms and strategies per platform. Each strategy is it's own template, that can then automatically be driven by a previous template
+# Project Template
+Project Template is meant to allow you to have a project src, dist and deployments (with versions). It is meant to be used with the deployment_templates
