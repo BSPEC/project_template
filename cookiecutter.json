@@ -8,6 +8,6 @@
         "YES"
     ],
     "_copy_without_render": [
-        "*"
+        "deployment/*"
     ]
 }
