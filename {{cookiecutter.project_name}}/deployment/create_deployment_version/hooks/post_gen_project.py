@@ -22,12 +22,12 @@ if copy_from_dist:
     else:
         src_dist_dir_path = os.path.join("", src_dist_dir)
 
-    print(f"Copy platform dist folder from: '{src_dist_dir_path}'")
+    print(f"Copy package dist folder from: '{src_dist_dir_path}'")
 
-    platform_dist_dir = f"{{cookiecutter.version}}/platform/dist"
-    platform_dist_dir_path = os.path.join(BASE_DIR, platform_dist_dir)
+    package_dist_dir = f"{{cookiecutter.version}}/package/dist"
+    package_dist_dir_path = os.path.join(BASE_DIR, package_dist_dir)
 
-    shutil.copytree(src_dist_dir_path, platform_dist_dir_path, dirs_exist_ok=True)
+    shutil.copytree(src_dist_dir_path, package_dist_dir_path, dirs_exist_ok=True)
 
 
 project_details_dir = "../project_details.json"
