@@ -1,0 +1,31 @@
+{
+    "template_directory_names": {
+        "docker_docker-basic": {
+            "vendor": "Company_name",
+            "developer_name": "Developer_name",
+            "developer_email": "{{cookiecutter.developer_name.strip().replace(' ', '.')}}@{{cookiecutter.vendor.strip().replace(' ', '.')}}.com",
+            "copy_from_package_dist": [
+                "YES",
+                "NO"
+            ],
+            "package_dist_dir_type": [
+                "Relative",
+                "Absolute"
+            ],
+            "package_dist_dir": "../../package/dist",
+            "docker_image": "python:3.8-slim",
+            "docker_run": "pip install --no-cache-dir -r requirements.txt",
+            "docker_port": "5000",
+            "docker_entrypoint": {
+                "entrypoint": [
+                    "python3"
+                ]
+            },
+            "docker_cmd": {
+                "cmd": [
+                    "run.py"
+                ]
+            }
+        }
+    }
+}

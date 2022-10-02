@@ -5,3 +5,4 @@
 ## Requirements
 ------------
 Install `cookiecutter` command line: `pip install cookiecutter`
+Install `BSPEC` command line: `pip install BSPEC`

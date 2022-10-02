@@ -1,9 +1,6 @@
 {
-    "project_name": "Project_Name",
-    "project_short_description": "A short description of the project",
-    "project_slug": "custom-{{ cookiecutter.project_name.lower().replace('cookiecutter', '').strip().replace(' ', '_') }}",
     "version": "0.0.1",
-    "src_dist_dir": "../../../dist",
+    "src_dist_dir": "../dist",
     "copy_from_src_dist": [
         "YES",
         "NO"
@@ -13,10 +10,5 @@
         "Absolute"
     ],
     "deployment_options_template_dir": "https://github.com/BSPEC/deployment_templates",
-    "deployment_options": {
-        "template_directory_names": [
-            "docker_docker-basic"
-        ]
-    },
     "_copy_without_render": []
 }
