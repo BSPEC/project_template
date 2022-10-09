@@ -1,5 +1,5 @@
 # Project Template
-Project Template is meant to allow you to have a project src, dist and deployments (with versions). It is meant to be used with the deployment_templates
+Project Template is meant to allow you to have a project src, dist and deployments (with versions). It is meant to be used with the [BSPEC Deployment Templates](https://github.com/BSPEC/deployment_templates)
 
 
 ## Requirements
@@ -36,8 +36,7 @@ cd Test
 
 ```
 
-```
-```
+> Copy your project source files into `src`, and build for deployment into `dist`. this will allow you to use a single deployment repository and deploy to multiple platforms, using chosen strategies.
 
 > Change the `deployment_options.json` to the deployment option details you wish to deploy to, default templates can be found at [https://github.com/BSPEC/deployment_templates](https://github.com/BSPEC/deployment_templates).
 > By default all the values you require for all deployment `platform`_`stratergy`
@@ -54,13 +53,14 @@ cookiecutter create_deployment_version
 > Follow the prompts:
 ```shell
 version [0.0.1]:
+Select src_dist_dir_type:
+1 - Relative
+2 - Absolute
+Choose from 1, 2 [1]:
 src_dist_dir [../dist]:
 Select copy_from_src_dist:
 1 - YES
 2 - NO
 Choose from 1, 2 [1]:
-Select src_dist_dir_type:
-1 - Relative
-2 - Absolute
-Choose from 1, 2 [1]:
 deployment_options_template_dir [https://github.com/BSPEC/deployment_templates]:
+```
