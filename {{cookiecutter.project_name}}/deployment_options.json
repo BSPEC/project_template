@@ -26,6 +26,55 @@
                     "run.py"
                 ]
             }
+        },
+        "desktop_pyinstaller-windows": {
+            "package_dist_dir_type": [
+                "Relative",
+                "Absolute"
+            ],
+            "package_dist_dir": "../../package/dist",
+            "copy_from_package_dist": [
+                "YES",
+                "NO"
+            ],
+            "desktop_entrypoint": "run_desktop.py",
+            "desktop_icon_ico": "./dist/app/static/images/icon.ico",
+            "desktop_onefile": [
+                "YES",
+                "NO"
+            ],
+            "desktop_noconsole": [
+                "YES",
+                "NO"
+            ],
+            "desktop_windowed": [
+                "YES",
+                "NO"
+            ],
+            "desktop_noconfirm": [
+                "YES",
+                "NO"
+            ],
+            "desktop_clean": [
+                "YES",
+                "NO"
+            ],
+            "desktop_add_data_points": {
+                "add_data": [
+                    "app;app"
+                ]
+            },
+            "desktop_hidden_imports": {
+                "hidden_import": [
+                    "engineio.async_drivers"
+                ]
+            },
+            "desktop_copy_files_and_folders_to_local_foler": {
+                "files_or_folders": [
+                    "config.py",
+                    "databases"
+                ]
+            }
         }
     }
 }

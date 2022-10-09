@@ -1,13 +1,13 @@
 {
     "version": "0.0.1",
+    "src_dist_dir_type": [
+        "Relative",
+        "Absolute"
+    ],
     "src_dist_dir": "../dist",
     "copy_from_src_dist": [
         "YES",
         "NO"
-    ],
-    "src_dist_dir_type": [
-        "Relative",
-        "Absolute"
     ],
     "deployment_options_template_dir": "https://github.com/BSPEC/deployment_templates",
     "_copy_without_render": []
