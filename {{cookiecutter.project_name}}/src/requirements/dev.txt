@@ -1,0 +1,2 @@
+-r common.txt
+black==22.8.0
