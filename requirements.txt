@@ -1,1 +1,2 @@
 cookiecutter
+jinja2-ansible-filters

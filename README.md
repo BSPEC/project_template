@@ -7,6 +7,7 @@ Project Template is meant to allow you to have a project src, dist and deploymen
 Install `cookiecutter` command line: 
 ```shell
 pip install cookiecutter
+pip install jinja2-ansible-filters
 
 ```
 
