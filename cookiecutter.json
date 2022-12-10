@@ -8,6 +8,9 @@
     ],
     "_copy_without_render": [
         "deployment/create_deployment_version",
-        "deployment_options.json"
+        "deployment_options.json",
+        "src/demo_config.json",
+        "src/requirements/*",
+        "src/requirements.txt"
     ]
 }
