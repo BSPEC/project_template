@@ -28,37 +28,16 @@
             }
         },
         "desktop_pyinstaller-windows": {
-            "package_dist_dir_type": [
-                "Relative",
-                "Absolute"
-            ],
+            "package_dist_dir_type": "Relative",
             "package_dist_dir": "../../package/dist",
-            "copy_from_package_dist": [
-                "YES",
-                "NO"
-            ],
+            "copy_from_package_dist": "YES",
             "desktop_entrypoint": "run_desktop.py",
             "desktop_icon_ico": "./dist/app/static/images/icon.ico",
-            "desktop_onefile": [
-                "YES",
-                "NO"
-            ],
-            "desktop_noconsole": [
-                "YES",
-                "NO"
-            ],
-            "desktop_windowed": [
-                "YES",
-                "NO"
-            ],
-            "desktop_noconfirm": [
-                "YES",
-                "NO"
-            ],
-            "desktop_clean": [
-                "YES",
-                "NO"
-            ],
+            "desktop_onefile": "YES",
+            "desktop_noconsole": "YES",
+            "desktop_windowed": "YES",
+            "desktop_noconfirm": "YES",
+            "desktop_clean": "YES",
             "desktop_add_data_points": {
                 "add_data": [
                     "app;app"
@@ -77,37 +56,16 @@
             }
         },
         "desktop_pyinstaller-lunix": {
-            "package_dist_dir_type": [
-                "Relative",
-                "Absolute"
-            ],
+            "package_dist_dir_type": "Relative",
             "package_dist_dir": "../../package/dist",
-            "copy_from_package_dist": [
-                "YES",
-                "NO"
-            ],
+            "copy_from_package_dist": "YES",
             "desktop_entrypoint": "run_desktop.py",
             "desktop_icon_ico": "./dist/app/static/images/icon.ico",
-            "desktop_onefile": [
-                "YES",
-                "NO"
-            ],
-            "desktop_noconsole": [
-                "YES",
-                "NO"
-            ],
-            "desktop_windowed": [
-                "YES",
-                "NO"
-            ],
-            "desktop_noconfirm": [
-                "YES",
-                "NO"
-            ],
-            "desktop_clean": [
-                "YES",
-                "NO"
-            ],
+            "desktop_onefile": "YES",
+            "desktop_noconsole": "YES",
+            "desktop_windowed": "YES",
+            "desktop_noconfirm": "YES",
+            "desktop_clean": "YES",
             "desktop_add_data_points": {
                 "add_data": [
                     "app;app"
@@ -126,33 +84,15 @@
             }
         },
         "desktop_pyinstaller-mac": {
-            "package_dist_dir_type": [
-                "Relative",
-                "Absolute"
-            ],
+            "package_dist_dir_type": "Relative",
             "package_dist_dir": "../../package/dist",
-            "copy_from_package_dist": [
-                "YES",
-                "NO"
-            ],
+            "copy_from_package_dist": "YES",
             "desktop_entrypoint": "run_desktop.py",
             "desktop_icon_icns": "./dist/app/static/images/icon.icns",
-            "desktop_noconsole": [
-                "YES",
-                "NO"
-            ],
-            "desktop_windowed": [
-                "YES",
-                "NO"
-            ],
-            "desktop_noconfirm": [
-                "YES",
-                "NO"
-            ],
-            "desktop_clean": [
-                "YES",
-                "NO"
-            ],
+            "desktop_noconsole": "YES",
+            "desktop_windowed": "YES",
+            "desktop_noconfirm": "YES",
+            "desktop_clean": "YES",
             "desktop_add_data_points": {
                 "add_data": [
                     "app;app"
