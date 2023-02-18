@@ -44,4 +44,11 @@ if copy_from_src:
         except OSError:
             os.remove(filepath)
 
-    shutil.copytree(src_dir_path, src_dist_dir_path, dirs_exist_ok=True)
+    shutil.copytree(
+        src_dir_path,
+        src_dist_dir_path,
+        dirs_exist_ok=True,
+        ignore=shutil.ignore_patterns(
+            *{{cookiecutter.copytree_ignore_patterns["ignore_patterns"]}}
+        ),
+    )

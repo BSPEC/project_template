@@ -56,6 +56,14 @@ cookiecutter create_deployment_version
 > Follow the prompts:
 ```shell
 version [0.0.1]:
+Select src_dir_type:
+1 - Relative
+2 - Absolute
+src_dir [../src]:
+Select copy_from_src_to_dist:
+1 - YES
+2 - NO
+Choose from 1, 2 [1]:
 Select src_dist_dir_type:
 1 - Relative
 2 - Absolute
@@ -66,4 +74,5 @@ Select copy_from_src_dist:
 2 - NO
 Choose from 1, 2 [1]:
 deployment_options_template_dir [https://github.com/BSPEC/deployment_templates]:
+copytree_ignore_patterns [default]:
 ```

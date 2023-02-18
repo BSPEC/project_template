@@ -9,6 +9,11 @@
         "YES",
         "NO"
     ],
+    "copytree_ignore_patterns": {
+        "ignore_patterns": [
+            "venv"
+        ]
+    },
     "src_dist_dir_type": [
         "Relative",
         "Absolute"
