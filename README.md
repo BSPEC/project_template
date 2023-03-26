@@ -1,5 +1,5 @@
 # Project Template
-Project Template is meant to allow you to have a project src, dist and deployments (with versions). It is meant to be used with the [BSPEC Deployment Templates](https://github.com/BSPEC/deployment_templates)
+Project Template is designed to allow you to have a project src, dist and deployments (with versions). It is intended but not limited to be used with the [BSPEC Deployment Templates](https://github.com/BSPEC/deployment_templates)
 
 ## Notes:
 This is part of the natural progression from the Flask-BDA project found here: [https://github.com/RyanJulyan/Flask-BDA](https://github.com/RyanJulyan/Flask-BDA) and should be considered it's successor.
