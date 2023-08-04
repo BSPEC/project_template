@@ -4,31 +4,7 @@
         "bspec.processors.pd_dropna.processor"
     ],
     "starting_world": "read_and_clean_csv",
-    "pipelines": [
-        {
-            "pipeline": "pipelines.pd_read_and_clean_csv.pipeline",
-            "entities": [
-                {
-                    "id": "read_and_clean_csv",
-                    "components": [
-                        {
-                            "component_name": "runtime_debug_print",
-                            "component_properties": {
-                                "runtime_debug_flag": true,
-                                "pause_execution": false
-                            }
-                        },
-                        {
-                            "component_name": "pd_input_file_csv",
-                            "component_properties": {
-                                "filepath_or_buffer": "./demo_data/example_stores.csv"
-                            }
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
+    "pipelines": [],
     "galaxy": [
         {
             "world_name": "read_and_clean_csv",
@@ -59,7 +35,7 @@
                         {
                             "component_name": "pd_input_file_csv",
                             "component_properties": {
-                                "filepath_or_buffer": "./demo_data/example_stores.csv"
+                                "filepath_or_buffer": "./data/example_stores.csv"
                             }
                         },
                         {

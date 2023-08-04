@@ -1,6 +1,8 @@
 # Project Template
-Project Template is meant to allow you to have a project src, dist and deployments (with versions). It is meant to be used with the [BSPEC Deployment Templates](https://github.com/BSPEC/deployment_templates)
+Project Template is designed to allow you to have a project src, dist and deployments (with versions). It is intended but not limited to be used with the [BSPEC Deployment Templates](https://github.com/BSPEC/deployment_templates)
 
+## Notes:
+This is part of the natural progression from the Flask-BDA project found here: [https://github.com/RyanJulyan/Flask-BDA](https://github.com/RyanJulyan/Flask-BDA) and should be considered it's successor.
 
 ## Requirements
 ------------
@@ -54,6 +56,14 @@ cookiecutter create_deployment_version
 > Follow the prompts:
 ```shell
 version [0.0.1]:
+Select src_dir_type:
+1 - Relative
+2 - Absolute
+src_dir [../src]:
+Select copy_from_src_to_dist:
+1 - YES
+2 - NO
+Choose from 1, 2 [1]:
 Select src_dist_dir_type:
 1 - Relative
 2 - Absolute
@@ -64,4 +74,5 @@ Select copy_from_src_dist:
 2 - NO
 Choose from 1, 2 [1]:
 deployment_options_template_dir [https://github.com/BSPEC/deployment_templates]:
+copytree_ignore_patterns [default]:
 ```

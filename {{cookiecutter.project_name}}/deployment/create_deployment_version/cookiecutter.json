@@ -1,5 +1,19 @@
 {
     "version": "0.0.1",
+    "src_dir_type": [
+        "Relative",
+        "Absolute"
+    ],
+    "src_dir": "../src",
+    "copy_from_src_to_dist": [
+        "YES",
+        "NO"
+    ],
+    "copytree_ignore_patterns": {
+        "ignore_patterns": [
+            "venv"
+        ]
+    },
     "src_dist_dir_type": [
         "Relative",
         "Absolute"
